@@ -12,5 +12,16 @@
 vector<int> ExamTest::getVertexColors(int** graph, int size)
 {
     vector<int> answer;
+
+    for (int vIndex = 0; vIndex < size; ++vIndex) {
+        for (int eIndex = 0; eIndex < size; ++eIndex) {
+            //answer[vIndex] = 1;
+        }
+    }
+
     return answer;
+}
+
+void markVertices(vector<int>* vertices, int** graph, int currentIndex){
+
 }
